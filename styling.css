@@ -1,0 +1,105 @@
+.body {
+    background: url(/goinfre/ashongwe/Desktop/app/img/wallpaperbro-307625) center center;
+    background-size: 980px;
+    height: 980px;
+}
+
+.logo { 
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-left: -100px;
+    margin-top: 50px;
+}
+.header {
+    font-family: Frank Ruhl Libre;
+    color: #FBFBFB;
+    
+}
+.header h1{
+    padding-top: 400px;
+}
+.btn {
+    background-color: #FBFBFB;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 190px;
+    margin-right: 50px;
+}
+.btn:hover{
+    background-color: #54D4F6;
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    .body{
+        height: 850px;
+        margin: 0;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    .header{
+        font-size: 20px;
+        text-align: center;
+    }
+    .btn {
+        margin-left: 130px;
+    
+    }
+    .feature h2{
+        font-family: Yatra One;
+        color: #FDFDFD;
+        margin-left: 150px;
+        padding-top: 70px;
+    }
+    .img {
+        padding-right: 20px;
+    }
+}
+    @media (max-width: 480px){
+        .body{
+            height: 800px;
+            margin: 0;
+        }
+        .logo{
+            width: 30px;
+            height: 30px;
+            margin-bottom: 15px;
+            margin-left: 30px;
+        }
+        .header{
+            font-size: 15px;
+            text-align: center;
+        }
+        .btn {
+            margin-left: 100px;
+        
+        }
+        .feature h2{
+            font-family: Yatra One;
+            color: #FDFDFD;
+            margin-left: 150px;
+            padding-top: 50px;
+        }
+        .img {
+            padding-right: 90px;
+        }
+    }
+    .feature h2{
+        font-family: Yatra One;
+        color: #FDFDFD;
+        margin-left: 150px;
+        padding-top: 100px;
+    }
+    .img {
+        padding-right: 150px;
+    }
+    .footer p{
+        text-align: center;
+        font-family: Work Sans;
+        font-weight: bold;
+    }
